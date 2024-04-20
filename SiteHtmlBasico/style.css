@@ -1,0 +1,72 @@
+/*style.css */
+
+h1 {
+    text-align: center;
+    vertical-align: auto;
+    width: auto;
+    color: rgb(27, 93, 216);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1cap solid rgb(73, 130, 163);
+}
+
+h2 {
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+small {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-indent: 30px; /* dar o recuo do paragrafo */
+}
+h3 {
+    text-indent: 30px;
+    text-decoration: underline;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-inline-start: 60px;
+    font-style: italic;
+    }
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 35px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-inline-start: 30px;
+}
+
+blockquote {
+    text-align: center;
+}
+
+#referencia {
+    text-align: center; 
+}
+
+#referencia {
+    text-align: center;
+}
+
+#referencia ol {
+    text-align: left;
+    margin-inline-start: 0; /* Remove a margem padrão da lista */
+    padding-inline-start: 0; /* Remove o padding padrão da lista */
+}
+
+#referencia li {
+    margin-bottom: 10px;
+}

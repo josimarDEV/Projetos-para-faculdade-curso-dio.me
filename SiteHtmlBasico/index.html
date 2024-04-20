@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oque aprendi até agora no HTML</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        
+    <body>
+        <h1 id="titulo">APRENDA  O BÁSICO  DE HTML <sub style="font-size: 20px;">h1</sub></h1>
+        <h2>Índice <sup style="font-size: 15px;">h2</sup></h2>
+        <hr> </hr>
+        <ul>
+            <li><a href="#basico">Básico que precisamos saber</a></li>
+            <li><a href="#primeiros-passos">Primeiros passos</a></li>
+            <li><a href="#elementos">Elementos HTML Comuns</a></li>
+            <li><a href="#formularios">Formulários HTML</a></li>
+            <li><a href="#referencia">Referências</a></li>
+        </ul>
+        <h2 id="basico">Básico que precisamos saber <sup style="font-size: 15px;">h2</sup></h2>
+        <small><a href="#titulo">voltar</a></small>
+
+        <p>O HTML, que significa Linguagem de Marcação de Hipertexto, é fundamental para a criação de páginas web. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação compõe-se de marcações que indicam ao servidor da web o estilo e a estrutura do documento.</p>
+        <p>O HTML não é considerado uma linguagem de programação, pois não pode criar funcionalidades dinâmicas. É amplamente utilizado em Desenvolvimento Web, Navegação na Internet e Documentação.</p>
+
+        <h2 id="primeiros-passos">Primeiros passos <sup style="font-size: 15px;">h2</sup></h2>
+        <small><a href="#titulo">voltar</a></small>
+
+        <h3>Como estruturar a base do HTML para criar um site. <sup style="font-size: 13px;">h3</sup></h3>
+        <p>Para começar a criar um site com HTML, é essencial entender a estrutura básica. Dentro do elemento HTML, temos o head (cabeçalho) que contém informações sobre o documento, e o body (corpo) onde o código será estruturado. Vamos explorar as tags que detalham nosso site.</p>
+
+        <h3>O que são TAGS? <sup style="font-size: 13px;">h3</sup></h3>
+        <p>Tags HTML são instruções que informam ao navegador como formatar o texto. Elas podem ser usadas para definir vários parâmetros, como itálico, quebras de linha, objetos, bullet points e muito mais.</p>
+        <p>Essas tags são lidas pelos servidores na ordem de cima para baixo, semelhante à redação de um texto. Podemos utilizar quantas tags quisermos para formatar conteúdos, mas é essencial seguir algumas regras básicas:</p>
+
+        <h4>Uma tag HTML deve conter três partes: <sup style="font-size: 10px;">h4</sup></h4>
+        <ol>
+            <li>
+                Uma tag de abertura -- começando com um símbolo &lt;.
+            </li>
+            <li>
+                Conteúdo -- instruções curtas para exibir o elemento na página.
+            </li>
+            <li>
+                Uma tag de fechamento -- terminando com um símbolo &lt;/.
+            </li>
+        </ol>
+
+        <h4>5 Exemplos de tags: <sup style="font-size: 10px;">h4</sup></h4>
+        <ol>
+            <li>
+                &lt;p&gt; texto &lt;/p&gt;: Tag de parágrafo, formata qualquer texto entre a tag de abertura e de fechamento, como um parágrafo padrão ou corpo principal.
+            </li>
+            <li>
+                &lt;b&gt; texto &lt;/b&gt;: Tag de negrito, formata qualquer texto entre as tags como negrito.
+            </li>
+            <li>
+                &lt;h2&gt; texto &lt;/h2&gt;: Tag de título, formata qualquer texto entre as tags. Existem de h1 até h4.
+            </li>
+            <li>
+                &lt;i&gt; texto &lt;/i&gt;: Tag itálico, formata qualquer texto entre as tags como itálico.
+            </li>
+            <li>
+                &lt;u&gt; texto &lt;/u&gt;: Tag de sublinhado, formata todo texto entre as tags como sublinhado.
+            </li>
+        </ol>
+
+
+
+        <h2 id="elementos">Elementos HTML Comuns <sup >h2</sup></h2>
+        <small><a href="#titulo">voltar</a></small>
+        <p>Nesta seção, vamos explorar alguns dos elementos HTML mais comuns e úteis que você pode usar para estruturar e formatar seu conteúdo. Isso inclui:</p>
+        <ul>
+            <li><a href="#links">Links e URLs</a></li>
+            <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+            <li><a href="#imagens">Imagens e mídia</a></li>
+            <li><a href="#tabelas">Tabelas para organização de dados</a></li>
+        </ul>
+
+        <h3 id="links">Links e URLs <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#elementos">voltar</a></small>
+        <p>Os links são elementos fundamentais para a navegação e interconexão de páginas web. Eles são definidos pelo elemento <code>&lt;a&gt;</code> (âncora) e podem conter atributos como <code>href</code> para especificar o destino do link. Abaixo estão alguns pontos-chave sobre links:</p>
+
+        <ul>
+            <li>
+                <strong>Elemento &lt;a&gt;:</strong> Utilize o seguinte formato para criar um link:
+                <pre><code><mark>&lt;a href="url_do_destino"&gt;Texto do Link&lt;/a&gt;</mark></code></pre>
+            </li>
+            <li>
+                <strong>Atributo <code>href</code>:</strong> Especifica o URL para o qual o link aponta.
+            </li>
+            <li>
+                <strong>Links internos:</strong> Use caminhos relativos para vincular páginas dentro do mesmo site.
+            </li>
+            <li>
+                <strong>Links externos:</strong> Coloque o URL completo para vincular páginas externas.
+            </li>
+        </ul>
+
+        <h3 id="#listas">Listas ordenadas e não ordenadas <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#elementos">voltar</a></small>
+        <p>As listas são fundamentais para organizar informações. No HTML, você pode criar listas ordenadas usando o elemento <code>&lt;ol&gt;</code> e listas não ordenadas usando <code>&lt;ul&gt;</code>. Cada item da lista é representado por <code>&lt;li&gt;</code>. Abaixo estão alguns pontos importantes sobre listas:</p>
+
+        <ul>
+            <li>
+                <strong>Listas ordenadas (ol):</strong> Utilize o elemento <code>&lt;ol&gt;</code> para criar listas numeradas.
+            </li>
+            <li>
+                <strong>Listas não ordenadas (ul):</strong> Utilize o elemento <code>&lt;ul&gt;</code> para criar listas sem números.
+            </li>
+            <li>
+                <strong>Itens de lista (li):</strong> Cada item da lista é representado por <code>&lt;li&gt;</code>.
+            </li>
+            <li>
+                <strong>Nesting:</strong> Você pode aninhar listas, colocando uma lista dentro de outra.
+            </li>
+        </ul>
+
+        <h3 id="imagens">Imagens e mídia <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#elementos">voltar</a></small>
+        <p>O elemento <code>&lt;img&gt;</code> é usado para incorporar imagens em uma página web. Além disso, você pode incorporar outros tipos de mídia, como áudio e vídeo. Abaixo estão alguns pontos-chave sobre imagens e mídia:</p>
+
+        <ul>
+            <li>
+                <strong>Elemento &lt;img&gt;:</strong> Use o atributo <code>src</code> para especificar o caminho da imagem.
+            </li>
+            <li>
+                <strong>Alt:</strong> Sempre forneça um texto alternativo usando o atributo <code>alt</code> para acessibilidade.
+            </li>
+            <li>
+                <strong>Mídia externa:</strong> Use elementos como <code>&lt;audio&gt;</code> e <code>&lt;video&gt;</code> para incorporar áudio e vídeo.
+            </li>
+        </ul>
+
+        <h3 id="tabelas">Tabelas para organização de dados <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#elementos">voltar</a></small>
+        <p>O elemento <code>&lt;table&gt;</code> é usado para criar tabelas no HTML. Tabelas são úteis para organizar dados em linhas e colunas. Abaixo estão alguns pontos importantes sobre tabelas:</p>
+
+        <ul>
+            <li>
+                <strong>Elemento &lt;table&gt;:</strong> Use <code>&lt;table&gt;</code> para iniciar uma tabela.
+            </li>
+            <li>
+                <strong>Linhas e colunas:</strong> Utilize <code>&lt;tr&gt;</code> para criar uma linha e <code>&lt;td&gt;</code> para células de dados.
+            </li>
+            <li>
+                <strong>Cabeçalhos de tabela:</strong> Use <code>&lt;th&gt;</code> para criar cabeçalhos de coluna ou linha.
+            </li>
+            <li>
+                <strong>Estilo:</strong> Aplique estilos com CSS para melhorar a aparência da tabela.
+            </li>
+        </ul>
+
+        <h2 id="formularios">Formulários HTML <sup >h2</sup></h2>
+        <small><a href="#titulo">voltar</a></small>
+        <p>Os formulários são elementos cruciais para a interação do usuário. Vamos explorar como criar formulários HTML e entender os principais elementos, como:</p>
+        <ul>
+            <li><a href="#campos-texto">Campos de texto e áreas de texto</a></li>
+            <li><a href="#botoes-seletores">Botões e seletores</a></li>
+            <li><a href="#validacao-atributos">Validação de formulários com atributos</a></li>
+            <li><a href="#envio-dados">Enviando dados com o elemento &lt;form&gt;</a></li>
+        </ul>
+
+        <h3 id="campos-texto">Campos de texto e áreas de texto <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#formularios">voltar</a></small>
+        <p>Campos de texto e áreas de texto permitem que os usuários insiram informações. Use o elemento <code>&lt;input&gt;</code> para campos de texto e <code>&lt;textarea&gt;</code> para áreas de texto.</p>
+
+        <ul>
+            <li>
+                <strong>Elemento &lt;input&gt;:</strong> Use o atributo <code>type</code> para especificar o tipo de campo, como texto, senha, e-mail, etc.
+                <pre><code><mark>&lt;input type="text" name="nome" id="nome" placeholder="Seu Nome"&gt;</mark></code></pre>
+            </li>
+            <li>
+                <strong>Elemento &lt;textarea&gt;:</strong> Crie áreas de texto para entrada de dados mais longos.
+                <pre><code><mark>&lt;textarea name="comentario" id="comentario" rows="4" cols="50" placeholder="Digite seu comentário"&gt;&lt;/textarea&gt;</mark></code></pre>
+            </li>
+        </ul>
+
+        <h3 id="botoes-seletores">Botões e seletores <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#formularios">voltar</a></small>
+        <p>Botões e seletores são essenciais para a interatividade do formulário. Utilize os elementos <code>&lt;button&gt;</code> e <code>&lt;select&gt;</code> para esses fins.</p>
+
+        <ul>
+            <li>
+                <strong>Elemento &lt;button&gt;:</strong> Crie botões clicáveis.
+                <pre><code><mark>&lt;button type="submit"&gt;Enviar&lt;/button&gt;</mark></code></pre>
+            </li>
+            <li>
+                <strong>Elemento &lt;select&gt;:</strong> Crie listas suspensas (dropdown) para seleção.
+                <pre><code><mark>
+        &lt;select name="carro" id="carro"&gt;
+            &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+            &lt;option value="saab"&gt;Saab&lt;/option&gt;
+            &lt;option value="mercedes"&gt;Mercedes&lt;/option&gt;
+            &lt;option value="audi"&gt;Audi&lt;/option&gt;
+        &lt;/select&gt;</mark>
+                </code></pre>
+            </li>
+        </ul>
+
+        <h3 id="validacao-atributos">Validação de formulários com atributos <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#formularios">voltar</a></small>
+        <p>Os atributos podem ser usados para validar dados do formulário, garantindo que os usuários insiram informações corretas.</p>
+
+        <ul>
+            <li>
+                <strong>Atributo <code>required</code>:</strong> Torna um campo obrigatório.
+                <pre><code><mark>&lt;input type="text" name="obrigatorio" id="obrigatorio" required&gt;</mark></code></pre>
+            </li>
+            <li>
+                <strong>Atributo <code>pattern</code>:</strong> Especifica um padrão para a entrada.
+                <pre><code><mark>&lt;input type="text" name="padrao" id="padrao" pattern="[0-9]{3}" placeholder="Apenas números de 3 dígitos"&gt;</mark></code></pre>
+            </li>
+        </ul>
+
+        <h3 id="envio-dados">Enviando dados com o elemento &lt;form&gt; <sup style="font-size: 20px;">h3</sup></h3>
+        <small><a href="#formularios">voltar</a></small>
+        <p>O elemento <code>&lt;form&gt;</code> é usado para agrupar elementos de formulário e enviar dados para um servidor. Use o atributo <code>action</code> para especificar o URL de destino.</p>
+
+        <pre><code style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;"> <mark style="margin-inline-start: 30px;">
+        &lt;form action="/processar-formulario" method="post"&gt;
+            &lt;!-- Seus elementos de formulário aqui --&gt;
+            &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+        &lt;/form&gt;
+        </code></pre> </mark>
+        <hr></hr>
+
+        <blockquote>
+            Este é o começo de uma jornada, não desistam, persistência é tudo.<abbr> Levante-se</abbr>
+        </blockquote>
+        <blockquote>
+            Esta jornada foi complementada com as referências abaixo.<del> Não desanime!</del>
+        </blockquote>
+        
+        <h2 id="referencia">Referências</h2>
+        <ol>
+            <li>
+                <a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos">Tutoriais conceitos Básicos</a>
+            </li>
+            <li>
+                <a href="https://pt.semrush.com/blog/tags-html/">Semrush blog sobre Tags</a>
+            </li>
+            <li>
+                <a href="https://overapi.com/html">overapi.com</a>
+            </li>
+        </ol>
+
+        <a href="#basico"></a>     
+
+    </body>
+</html>
